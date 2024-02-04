@@ -4,11 +4,38 @@
 /* These are marked with an underscore: */
 @import url("./_variables.css");
 /* Feel free to add as many of these imports as you need */
+@import url("_nav-bar.css");
+
+@font-face {
+  font-family: Montserrat;
+  src: url(assets/fonts/Montserrat/static/Montserrat-Regular.ttf)
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  box-sizing: border-box;
+  line-height: normal;
+  color: black;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: 700;
+}
 
 body {
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  color: #333;
 }
+
 
 .centered {
   display: flex;
