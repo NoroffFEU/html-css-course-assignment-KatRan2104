@@ -48,16 +48,18 @@ body {
 }
 
 /* This is the hero banner for the index.html */
-.hero-image {
+/* .hero-image {
+  grid-template-areas:"header header2 header 3 header 4";
   background-image: url("pictures rainy days/banner_image.jpg");
   height: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
+} */
 
 .hero-text {
+  grid-template-areas: "header header2 header 3 header 4";
       text-align: center;
       position: absolute;
       top: 50%;
@@ -65,3 +67,4 @@ body {
       transform: translate(-50%, -50%);
       color: white;
 }
+
