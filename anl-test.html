@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Bar</title>
+    <style>
+        .bar {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .left-links, .right-links {
+            display: flex;
+            align-items: center;
+        }
+
+        .link {
+            text-decoration: none;
+            color: #fff;
+            margin-right: 10px;
+        }
+
+        .link:last-child {
+            margin-right: 0;
+        }
+
+        .image {
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="bar">
+    <div class="left-links">
+        <a href="#" class="link">Woman</a>
+        <a href="#" class="link">Man</a>
+    </div>
+    <div class="right-links">
+        <a href="#" class="link"><img src="assets/icons-used/search_icon.svg" alt="Image 1" class="image"></a>
+        <a href="#" class="link"><img src="assets/icons-used/my_page_icon.svg" alt="Image 2" class="image"></a>
+        <a href="#" class="link"><img src="assets/icons-used/shoppingbag_icon.svg" alt="Image 3" class="image"></a>
+    </div>
+</div>
+
+</body>
+</html>
