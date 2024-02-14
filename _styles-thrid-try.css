@@ -22,7 +22,7 @@
 
 
 body {
-    font-family: Montserrat, sans-serif;
+    font-family: Montserrat;
     min-height: 100vh;
 }
 
@@ -33,21 +33,31 @@ main {
 /*TYPOGRAPHY*/
 
 h1 {
-    font-family: Montserrat, sans-serif;
+    font-family: Montserrat;
     font-size: 96px;
     font-weight: 700;
 }
 
 h2 {
-    color: #0A3641;
-    font-family: Montserrat sans-serif;
+    /* color: #0A3641; */
+    font-family: Montserrat;
     font-size: 4rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    /* display: flex */
 
-    display:inline-block;
-    position: relative;
+    /* display:inline-block; */
+    /* position: relative; */
+}
+
+h4 {
+color: #000;
+font-family: Montserrat;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
 p {
@@ -205,21 +215,25 @@ max-width: 100%;
 top: 1rem 5%;
 }
 
+/* FIRST SECTION INDEX */
 
-/* SECOND SECTION INDEX */
-
-.second-section {
+.pushing-the-comfortzone {
     background-image: url(assets/images/man-in-back-jacket-section-two-index.jpg);
     background-repeat: no-repeat;
-    display: flex;
-    top: 1.3rem;
-    position: relative;
+    display: block;
+    flex-direction: row;
+    height: 500px;
+    /* top: 1.3rem; */
+    /* position: relative; */
     align-items: center;
-    padding: 1rem 10%;
+    padding: 5rem 10%;
     /* gap: 20rem; */
     margin-top: 3rem;
-    border-bottom: 6rem solid white;
+    margin-bottom: 3rem;
+    margin-right: -14%;
+    /* border-bottom: 6rem solid white; */
 }
+
 
 /* .image-second-section {
     position: absolute;
@@ -234,26 +248,36 @@ top: 1rem 5%;
     transform: translateX(-50%);
 } */
 
-.second-section-header h2 {
-    display: flex;
+/* .pushing-the-comfortzone h2 */
+    /* display: flex;
     flex-direction: row;
     text-align: center;
-    justify-content: center;
+    justify-content: center; */
     /* top: 10rem; */
     /* font-size: 64px;
     font-weight: 700;
     color: #0A3641;
     padding: 1.3rem; */
+
+.first-section {
+    display: block;
+    position: relative;
+    padding: 1rem 10%;
+    margin-top: 3rem;
 }
 
-.textbox-container-index-section-two {
-    display: flex;
+.first-section h2 {
+    top: 3rem;
+}
+
+.textbox-container-index-first-two {
+    display: block;
     flex-direction: column;
-    position: relative;
+    /* position: relative; */
     margin-left: 30%;
-    align-items: center;
-    margin-top: 7rem;
-    margin-bottom: 7rem;
+    /* align-items: center; */
+    /* margin-top: 7rem;
+    margin-bottom: 7rem; */
     padding: 50px;
     background-color:rgba(10, 54, 65, 0.80);
     text-align: center;
@@ -263,21 +287,17 @@ top: 1rem 5%;
     margin-bottom: 1.3rem;
 }
 
-.textbox-container-index-section-two h3 {
+.textbox-container-index-first-two h3 {
     padding: 1.3rem;
 }
 
-.textbox-container-index-section-two p {
+.textbox-container-index-first-two p {
     padding-bottom: 1.3rem;
 }
 
-.all-you-needs {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: none;
-    position: absolute;
-    padding: 1rem 10%;
-}
+/* All you need section index */
+
+
 
 /* .third-section {
     display: block;
@@ -329,11 +349,179 @@ top: 1rem 5%;
 } */
 
 /* THIRD SECTION INDEX */
+.third-section {
+    /* display: flex; */
+    /* display: block; */
+    /* flex-direction: row-reverse;
+    position: absolute; */
+    padding: 1rem 10%;
+    margin-top: 3rem;
+    /* text-align: center; */
+}
 
-.our-lightest-desig-ever {
+.third-section p {
+    width: 70%;
+}
+
+/* .all-you-need-container {
+    background-image: url(assets/images/person-in-rain-index.png);
+    background-repeat: no-repeat;
+    width: 40em;
+    height: 45rem;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.all-you-need-inner-container {
+    display: block;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    width: 35rem;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 1.3rem;
+    padding: 1.3rem
+}
+
+.all-you-need-inner-container h3 {
+    padding: 1.3rem;
+    color: white
+} */
+
+.row {
     display: flex;
-    flex-direction: row;
+    height:40rem;
+    background-image: url(assets/images/person-in-rain-index.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    height: 40rem;
+}
 
+.column-one {
+    flex: 50%;
+    background-color: #F4F4F3;
+}
+
+.column-two {
+    flex: 50%;
+}
+
+.content-colum-two {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 16px;
+}
+
+/* FOURTH SECTION INDEX */
+
+.fourth-section {
+    display: block;
+    margin-top: 3rem;
+}
+
+.our-latest-design-ever {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/images/our-latest-design-ever-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50rem;
+    width: 100%;
+    text-align: center;
+    gap: 2rem;
+}
+
+.our-latest-design-ever h2 {
+    color: white;
+}
+
+.our-latest-design-ever p {
+    padding: 2%
+}
+
+.button-container-fourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Section five index */
+
+.sign-me-up-two-line-format {
+    display: block;
+    height: 48rem;
+    margin-top: 6rem;
+}
+
+.container-sign-me-up-two-line-format h4 {
+    margin-left: 10%;
+    text-align: start;
+}
+
+/* .container-sign-me-up-two-line-format {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.container-sign-me-up-two-line-format {
+    padding: 1rem 10%;
+    align-items: flex-start;
+}
+
+.form-two-line-format {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-justify: right;
+    gap: 1rem;
+}
+
+.checkbox-and-button {
+    display: flex;
+    align-content: baseline;
+    gap: 1.5rem;
+}
+
+.checkbox-and-button p {
+    font-size: 2rem;
+}
+
+.text-fill {
+    background: #C7D6DE;
+    height: 3.5rem;
+    width: cover;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.container-sign-me-up-two-line-format h4 {
+    margin-left: 0%;
+    margin-bottom: 1.3rem;
 }
 
 
@@ -399,6 +587,7 @@ top: 1rem 5%;
     margin-left: 1.3rem;
     background-color: #FF5935;
     color: white;
+    margin-top: 1.3rem;
     padding: 16px;
     border: none;
     width: 256px;
