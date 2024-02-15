@@ -1,13 +1,5 @@
 @import url("assets/fonts/Montserrat");
 
-/* body {
-    display: flex;
-    flex-flow: row wrap;
-} */
-
-/* body > * {
-    flex: 1 100%;
-} */
 *, ::before, ::after {
     box-sizing: border-box;
 }
@@ -18,7 +10,6 @@
 }
 
 /* section > header > main > footer {max-width: 2560;} */
-
 
 
 body {
@@ -61,7 +52,7 @@ line-height: normal;
 }
 
 p {
-    color: #FFF;
+    color: black;
     font-family: Montserrat;
     font-size: 1.25rem;
     font-style: normal;
@@ -107,10 +98,10 @@ p {
 }
 
 .header a {
+    display: inline-flex;
     position: flex;
     right: 10%;
     padding: 1rem;
-    font-size: 24px;
     list-style-type: none;
     margin-left: 1.8rem;
     justify-content: baseline;
@@ -118,7 +109,7 @@ p {
     color: white;
     text-decoration: none;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.3rem;
     z-index: 100;
 }
 
@@ -131,6 +122,7 @@ p {
 
 
 .navbar a {
+    display: inline-flex;
     position: flex;
     right: 0;
     padding: 1rem;
@@ -153,6 +145,37 @@ p {
     margin-left: 36px;
 }
 
+.spaceholder-blue-top {
+    display: flex;
+    flex-direction: column;
+    align-content: baseline;
+    height: 8rem;
+    background-color: #C7D6DE;
+}
+
+.spaceholder-blue-top p {
+    font-family: Montserrat;
+    padding-inline: 1rem 5%;
+    padding-left: 5%;
+    margin-top: 6rem;
+    font-size: 1rem;
+    color: #000;
+}
+
+.spaceholder-white-back {
+    display: flex;
+    flex-direction: row;
+    height: 6rem;
+    background-color: #FFF;
+    gap: 1.3rem;
+    justify-content: start;
+    padding: 1rem 5%;
+}
+
+.white-black-text p {
+    color: black;
+}
+
 /* Main */
 
 /* .main-content {
@@ -165,19 +188,31 @@ p {
 
 /* HERO BANNER HOME PAGE*/
 
-
 .hero-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 35rem;
     background-image: url("assets/images/image-main-hero-banner.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     background-position-y: 90%;
+    gap: 2rem;
+}
+
+.hero-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 1.3rem;
 }
 
 .hero-banner h1 {
     color: white;
+    margin-bottom: 1.3rem;
 }
+
 /* .hero-banner-img-container {
     height: 73rem;
     background-image: url("assets/images/hero-banner.jpg");
@@ -188,7 +223,7 @@ p {
     justify-self: baseline; */
     /* height: 100%;
     position: relative;
-} */ */
+} */
 
 /* .hero-banner-inner-container {
     text-align: center;
@@ -519,9 +554,59 @@ top: 1rem 5%;
     font-size: 1rem;
 }
 
-.container-sign-me-up-two-line-format h4 {
+.container-sign-me-up-two-line-forma, .container-sign-me-up-one-line-forma h4 {
     margin-left: 0%;
-    margin-bottom: 1.3rem;
+    margin-bottom: 2rem;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* #inline-button {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: start;
+    gap: 1.5rem;
+} */
+
+/* ON LINE NEWS LETTER */
+.container-sign-me-up-one-line-format {
+    padding: 1rem 10%;
+    align-items: flex-start;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+.form-one-line-format {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    /* text-justify: right; */
+    gap: 1.3rem;
+}
+
+.text-fill-one-line {
+    background: #C7D6DE;
+    height: 3.5rem;
+    width: 27rem;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container-sign-me-up-one-line-format h4 {
+    margin-left: 0%;
+}
+
+.checkbox {
+    display: flex;
+    align-content: baseline;
+    gap: 1.3rem;
+    margin-left: 10%;
+    border-radius: 0px;
+    font-size: 1.3rem;
 }
 
 
@@ -567,6 +652,45 @@ top: 1rem 5%;
     font-size: 20px;
 }
 
+/* MAKE IT LAST BREAK SECTION */
+.breaksection {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.make-it-last-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(assets/images/two-people-looking-out-of-the-void.jpg);
+    background-repeat: no-repeat;
+    height: 25rem;
+    width: cover;
+}
+
+.make-it-last-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem 10%;
+    gap: 1rem;
+}
+
+.make-it-last-elements h2 {
+    color: white;
+}
+
+.make-it-last-elements p {
+    color: white;
+    width: 70%;
+    line-height: normal;
+    font-family: Montserrat;
+    font-size: 1.3rem;
+}
+
 /* BUTTONS */
 
 .medium-btn {
@@ -579,6 +703,20 @@ top: 1rem 5%;
     width: 256px;
     font-family: Montserrat, sans-serif;
     font-size: 20px;
+    font-weight: 400px;
+}
+
+.medium-btn-narrow {
+    display: inline-block;
+    margin-left: 1.3rem;
+    width: 15rem;
+    height: 3.5rem;
+    background-color:#0A3641;
+    color: white;
+    padding: 16px;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.3rem;
     font-weight: 400px;
 }
 
@@ -595,6 +733,7 @@ top: 1rem 5%;
     font-size: 20px;
     font-weight: 400px;
 }
+
 /* BEAKPOINTS */
 /* Small screens 800px, 1024px */
 
