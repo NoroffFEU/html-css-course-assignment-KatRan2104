@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="_styles-thrid-try.css">
+    <link rel="stylesheet" href="src/css/_jacket.css">
     <title>Productpage jacket female</title>
 </head>
 
@@ -30,7 +31,7 @@
         </label>
 
         <nav class="navbar">
-            <a href="#" class="search-icon"><img src="assets/icons-used/search_icon.svg" alt="Search"/></a>
+            <a href="#" class="search-icon" id="search-icon"><img src="assets/icons-used/search_icon.svg" alt="Search"/></a>
             <a href="#" class="user-icon"><img src="assets/icons-used/my_page_icon.svg" alt="User"></a>
             <a href="#" class="cart-icon"><img src="assets/icons-used/shoppingbag_icon.svg" alt="Cart"></a>
             <i class="icons"></i>
@@ -61,19 +62,43 @@
         <section class="jacket-container-product">
             <div class="row-product">
                 <div class="product-column">
-                    <img src="assets/images/blue-jacket-product-page-big.png" alt="Picture of blue Jacket">
+                    <img src="assets/images/blue-jacket-product-page-big.png" alt="Picture of blue Jacket" class="blue-jacket-image">
                 </div>
-                <div class="product-column">
+                <div class="product-column-text">
+                    <div id="product-column-text">
                     <h2>Freya Hybrid Rain</h2>
-                    <p>Price NOK</p>
+                    <p>3499 NOK</p>
+                    </div>
                     <div class="product-sizing"> <!--this should be a row-->
                         <p>Size</p>
-                        <input type="checkbox" class="size-checkbox">XS</checkbox>
-                        <input type="checkbox" class="size-checkbox">S</checkbox>
-                        <input type="checkbox" class="size-checkbox">M</checkbox>
-                        <input type="checkbox" class="size-checkbox">L</checkbox>
-                        <input type="checkbox" class="size-checkbox">XL</checkbox>
+                        <!-- <input type="checkbox" id="size-checkbox">XS</checkbox>
+                        <input type="checkbox" id="size-checkbox">S</checkbox>
+                        <input type="checkbox" id="size-checkbox">M</checkbox>
+                        <input type="checkbox" id="size-checkbox">L</checkbox>
+                        <input type="checkbox" id="size-checkbox">XL</checkbox> -->
+
+                        <input type="checkbox" id="checkbox-size"/>
+                        <label for="checkbox">
+                        XS
+                        </label>
+                        <input type="checkbox" id="checkbox-size"/>
+                        <label for="checkbox">
+                        S
+                        </label>
+                        <input type="checkbox" id="checkbox-size"/>
+                        <label for="checkbox">
+                        M
+                        </label>
+                        <input type="checkbox" id="checkbox-size"/>
+                        <label for="checkbox">
+                        L
+                        </label>
+                        <input type="checkbox" id="checkbox-size"/>
+                        <label for="checkbox">
+                        XL
+                        </label>
                     </div>
+
                     <div class="product-size-guide">
                         <img src="assets/icons-used/ruler-icon.png" alt="Size guide"><p>Size and fit guide</p>
                     </div>
