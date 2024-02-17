@@ -654,7 +654,6 @@ top: 1rem 5%;
 
 /* MAKE IT LAST BREAK SECTION */
 .breaksection {
-
     display: flex;
     flex-direction: column;
 }
