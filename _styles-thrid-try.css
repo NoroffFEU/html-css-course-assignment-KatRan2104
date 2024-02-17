@@ -805,4 +805,59 @@ top: 1rem 5%;
 
 }
 
+.sustainability-holder {
+    display: flex;
+    flex-direction: column;
+}
 
+.sustainability-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.sustainability-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1rem 10%;
+    gap: 1rem;
+}
+
+.sustainability-elements h2 {
+    color: white;
+}
+
+.sustainability-elements p {
+    color: white;
+    width: 70%;
+    line-height: normal;
+    font-family: Montserrat;
+    font-size: 1.3rem;
+}
+
+#sustainability {
+    background-image: url(assets/images/sustainability.jpg);
+    /* height: 40rem;
+    width: 100%; */
+    }
+
+    #responsibility {
+        align-items: flex-start;
+        background-image: url(assets/images/second-imag-about-us.png);
+    /* height: 40rem;
+    width: 100%; */
+    }
+
+#quality {
+    background-image: url(assets/images/thrid-img-about-us.jpg);
+    /* height: 40rem;
+    width: 100%; */
+}
+
+#quality, #responsibility, #sustainability {
+    height: 40rem;
+    width: 100%;
+}

@@ -1,48 +1,35 @@
-@import url("_styles-thrid-try.css");
 
-*, ::before, ::after {
-    box-sizing: border-box;
+.where-we-started {
+display: block;
+
 }
 
-* {
-    margin: 0;
-    padding: 0;
+.container {
+display: flex;
+flex-direction: row;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 10%;
+margin-bottom: 6rem;
+}
+
+.where-we-started-elements {
+display: flex;
+flex-direction: column;
+gap: 2rem;
+margin-right: 5%;
+/* width: 28rem;
+height: 28rem;
+margin-bottom: 10rem; */
+}
+
+.where-we-started-elements {
+width: 28rem;
+height: 35rem;
+}
+
+.image-where-we-started-img {
+    margin-left: 5rem;
 }
 
 
-.sustainability-holder {
-    display: flex;
-    flex-direction: column;
-}
-
-.sustainability-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url(assets/images/sustainability.jpg);
-    align-items: flex-start;
-    background-repeat: no-repeat;
-    height: 25rem;
-    width: cover;
-}
-
-.sustainability-elements {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 1rem 10%;
-    gap: 1rem;
-}
-
-.sustainability-elements h2 {
-    color: black;
-}
-
-.sustainability-elements p {
-    color: black;
-    width: 70%;
-    line-height: normal;
-    font-family: Montserrat;
-    font-size: 1.3rem;
-}
