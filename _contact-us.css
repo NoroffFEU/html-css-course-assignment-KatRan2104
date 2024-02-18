@@ -181,3 +181,67 @@
 }
 
 
+#contact-us-form {
+    display: grid;
+    gap: 1.3rem;
+    padding: 2rem 10%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+}
+
+#contact-email {
+    grid-column: 1 / span 1 ;
+    grid-row: 1 / span 1;
+}
+
+#contact-ordernr {
+    grid-column: 2 / span 1 ;
+    grid-row: 1 / span 1;
+}
+
+#contact-fname {
+    grid-column: 1 / span 1 ;
+    grid-row: 2 / span 1;
+}
+
+#contact-sname {
+    grid-column: 2 / span 1 ;
+    grid-row: 2 / span 1;
+}
+
+#contact-ymessage {
+    grid-column: 1 / span 2 ;
+    grid-row: 3 / span 1;
+}
+
+#contact-submit {
+    grid-column: 1 / span 2 ;
+    grid-row: 4 / span 1;
+}
+
+.contact-us-input-group input {
+    display: block;
+    width: 100%;
+    background-color:#C7D6DE;
+    border: none;
+    height: 65%;
+    margin-top: 0.5rem;
+    font-size: 150%;
+    padding-left: 0.5rem;
+}
+
+.contact-us-input-group textarea {
+    display: block;
+    width: 100%;
+    background-color:#C7D6DE;
+    border: none;
+    margin-top: 0.5rem;
+    height:100%;
+    font-size: 150%;
+}
+
+.contact-us-input-group label {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+}

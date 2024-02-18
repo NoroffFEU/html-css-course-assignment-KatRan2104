@@ -49,7 +49,32 @@
                 <div class="container-about-us-element">
                         <h2>Contact Us</h2>
                         <h3>To contact our costumers service please fill out the form bellow. We will respond as quickly as possible. Do you need emidiet help pleace call us during working hours as listed bellow</h3>
-                        <div class="form-contact-us-container">
+                        <form id="contact-us-form">
+                            <div class="contact-us-input-group" id="contact-email">
+                                <label for="email">E-mail</label>
+                                <input id="email" name="email" type="email" placeholder="E-mail" class="contact-us-input">
+                            </div>
+                            <div class="contact-us-input-group" id="contact-ordernr">
+                                <label for="order-number">Order Number</label>
+                                <input id="order-number" name="order-number" type="text" placeholder="Order Number" class="contact-us-input">
+                            </div>
+                            <div class="contact-us-input-group" id="contact-fname">
+                                <label for="first-name">First Name</label>
+                                <input id="first-name" name="first-name" type="text" placeholder="First Name" class="contact-us-input">
+                            </div>
+                            <div class="contact-us-input-group" id="contact-sname">
+                                <label for="last-name">Last Name</label>
+                                <input id="last-name" name="last-name" type="text" placeholder="Last Name" class="contact-us-input">
+                            </div>
+                            <div class="contact-us-input-group" id="contact-ymessage">
+                                <label for="message">Your message</label>
+                                <textarea id="message" name="message" placeholder="Your message" class="contact-us-input"></textarea>
+                            </div>
+                            <div class="contact-us-input-group" id="contact-submit">
+                                <button class="medium-btn-red" id="medium-btn-red-contact-us" href="contact-us.php">Contact Us</button>
+                            </div>
+                        </form>
+                        <!-- <div class="form-contact-us-container">
                             <div class="form-contact-us-row">
                                 <div class="form-column-left">
                                     <div class="form-column">
@@ -80,7 +105,7 @@
                             </div>
                         </div>
                         <button class="medium-btn-red" id="medium-btn-red-contact-us" href="contact-us.php">Contact Us</button>
-                </div>
+                </div> -->
             </div>
         </section>
 
