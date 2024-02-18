@@ -399,36 +399,6 @@ top: 1rem 5%;
     width: 70%;
 }
 
-/* .all-you-need-container {
-    background-image: url(assets/images/person-in-rain-index.png);
-    background-repeat: no-repeat;
-    width: 40em;
-    height: 45rem;
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-
-.all-you-need-inner-container {
-    display: block;
-    flex-direction: column;
-    position: absolute;
-    text-align: center;
-    width: 35rem;
-    font-size: 24px;
-    font-weight: 400;
-    color: white;
-    margin-bottom: 1.3rem;
-    padding: 1.3rem
-}
-
-.all-you-need-inner-container h3 {
-    padding: 1.3rem;
-    color: white
-} */
-
 .row {
     display: flex;
     height:40rem;
@@ -667,6 +637,7 @@ top: 1rem 5%;
     background-image: url(assets/images/two-people-looking-out-of-the-void.jpg);
     background-repeat: no-repeat;
     height: 25rem;
+    background-color: #a4b2b9;
     width: cover;
 }
 
@@ -738,6 +709,8 @@ top: 1rem 5%;
 /* Small screens 800px, 1024px */
 
 
+
+
 .sustainability-holder {
     display: flex;
     flex-direction: column;
@@ -793,7 +766,8 @@ top: 1rem 5%;
 }
 
 #quality, #responsibility, #sustainability {
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     height: 40rem;
     width: 100%;
 }
+
