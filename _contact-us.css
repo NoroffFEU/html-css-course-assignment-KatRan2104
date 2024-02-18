@@ -108,19 +108,34 @@
 }
 
 .container-contact-us {
-    display: block
+    display: block;
+}
+
+.contact-us-form-redirect {
+    height: 60rem;
+    background-color: #0A3641;
 }
 
 .form-contact-us-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container-about-us-element h3 {
+    margin-bottom: 1.3rem;
+    font-size: 1.6rem;
+    font-weight: normal;
+    text-align: center;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .form-contact-us-container [type="submit"] {
-    background-color: #0A3641;
+    /* background-color: #0A3641; */
     color: white;
     border: none;
     padding: 1rem 2rem;
