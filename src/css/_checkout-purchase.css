@@ -1,0 +1,38 @@
+
+fieldset {
+    margin: 0;
+    padding: 1rem 10%;
+    border: 0;
+}
+
+legend {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.column-payment-methods, .preferred-shipping-element {
+    width: 80%;
+    height: 3rem;
+    background-color: #C7D6DEB2;
+    margin-bottom: 0.75rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.shipping-element input {
+    width: 80%;
+    height: 3rem;
+    background-color: #C7D6DEB2;
+    margin-bottom: 0.75rem;
+    display: block;
+    border: 0;
+    padding-left: 1rem;
+}
+
+.shipping-element label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
