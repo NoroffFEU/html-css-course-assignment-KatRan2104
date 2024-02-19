@@ -58,3 +58,11 @@
     margin: 1rem 1rem;
     padding: 1rem;
 }
+
+
+@media (max-width: 768px) {
+    .product-container {
+        padding: 0rem 1rem;
+        flex-wrap: nowrap;
+    }
+}
