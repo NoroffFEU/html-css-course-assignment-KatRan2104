@@ -122,7 +122,7 @@ p {
 }
 
 
-.navbar a {
+/* .navbar a {
     display: inline-flex;
     position: flex;
     right: 0;
@@ -132,7 +132,7 @@ p {
     justify-content: center;
     align-items: bottom;
     margin-left: 36px;
-}
+} */
 
 .icons {
     display: none;
@@ -206,6 +206,7 @@ p {
 .hero-btn {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 1.3rem;
 }
 
@@ -247,6 +248,7 @@ p {
 
 .hero-img {
 display: flex;
+min-height: fit-content;
 max-width: 100%;
 top: 1rem 5%;
 }
@@ -307,10 +309,11 @@ top: 1rem 5%;
 }
 
 .textbox-container-index-first-two {
-    display: block;
+    display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     /* position: relative; */
-    margin-left: 30%;
+    /* margin-left: 30%; */
     /* align-items: center; */
     /* margin-top: 7rem;
     margin-bottom: 7rem; */
@@ -329,6 +332,7 @@ top: 1rem 5%;
 
 .textbox-container-index-first-two p {
     padding-bottom: 1.3rem;
+    color: white;
 }
 
 /* All you need section index */
@@ -383,6 +387,18 @@ top: 1rem 5%;
     position: absolute;
     left: 50%;
 } */
+
+.row p {
+    color: white;
+}
+
+.column-one img {
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #F4F4F3;
+}
 
 /* THIRD SECTION INDEX */
 .third-section {
@@ -462,7 +478,8 @@ top: 1rem 5%;
 }
 
 .our-latest-design-ever p {
-    padding: 2%
+    padding: 2%;
+    color: white;
 }
 
 .button-container-fourth {
