@@ -549,10 +549,13 @@ top: 1rem 5%;
     margin-bottom: 6rem;
 }
 
+
 .form-one-line-format {
     display: flex;
     flex-direction: row;
     align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
     /* text-justify: right; */
     gap: 1.3rem;
 }

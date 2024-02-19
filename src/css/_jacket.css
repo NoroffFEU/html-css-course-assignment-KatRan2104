@@ -100,9 +100,9 @@
 }
 
 
-/* .color-checkbox-nav [type="radio"] {
+.color-checkbox-nav [type="radio"] {
     visibility: hidden;
-} */
+}
 
 
 /* .round-checkbox {
@@ -144,7 +144,7 @@
 
 .round-checkbox input [type="checkbox"]:checked + label:after {
     opacity: 1;
-} */
+}
 
 
 .container-add-to-cart {
