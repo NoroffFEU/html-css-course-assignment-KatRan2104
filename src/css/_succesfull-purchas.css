@@ -1,0 +1,25 @@
+
+
+.sucessfull-purchase-container {
+    gap: 2rem;
+    border: 0.15rem solid black;
+    padding: 2rem;
+}
+
+.sucessfull-purchase {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    text-align: center;
+}
+
+.sucessfull-purchase img {
+    background-color: black;
+    padding: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}

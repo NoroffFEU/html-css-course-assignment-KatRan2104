@@ -1,0 +1,21 @@
+@import url("_styles-thrid-try.css");
+
+
+.jackets-main-container {
+width: 100%;
+height: 100%;
+}
+
+.jackets-container {
+display: flex;
+flex-direction: column;
+margin-left: 10%;
+}
+
+.text-list-jacket {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+

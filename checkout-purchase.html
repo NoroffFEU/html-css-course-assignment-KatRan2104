@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_styles-thrid-try.css">
+    <link rel="stylesheet" href="src/css/_checkout-purchase.css">
+    <title>Purchase-checkout</title>
+</head>
+
+<body>
+    <section class="section">
+        <div class="space-holder-top">
+            <a href="#">Free shipping</a>
+            <a href="#">Easy returns</a>
+            <a href="#">Quick delivery</a>
+        </div>
+    </section>
+
+    <header class="header element">
+        <a href="index-third-try.html" class="logo"><img src="assets/icons-used/raindrop_icon_home_button.svg"/></a>
+
+        <div class="left-side">
+            <a href="all-products.html" class="navbar">Women's</a>
+            <a href="all-products.html" class="navbar">Men's</a>
+            <a href="about-us.html" class="navbar">About Us</a>
+        </div>
+
+        <label for="nav-checkbox" class="icons" aria-label="Menu for small screens">
+            <i class="hamburger-icon"><img src="assets/icons-used/hamburgermenue.svg"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="#" class="search-icon" id="search-icon"><img src="assets/icons-used/search_icon.svg" alt="Search"/></a>
+            <a href="#" class="user-icon"><img src="assets/icons-used/my_page_icon.svg" alt="User"></a>
+            <a href="#" class="cart-icon"><img src="assets/icons-used/shoppingbag_icon.svg" alt="Cart"></a>
+            <i class="icons"></i>
+        </nav>
+    </header>
+
+    <main>
+        <section class="spaceholder-blue-top">
+            <div lass="blue-top-text">
+            </div>
+        </section>
+
+        <section class="spaceholder-white-back">
+            <div class="white-black-arrow">
+                <a href="#" class="back-icon"><img src="assets/icons-used/arrow-icon.svg" alt="Search"/></a>
+            </div>
+            <div class="white-black-text">
+                <p>Back</p>
+            </div>
+        </section>
+
+        <section class="continue-as-guest">
+            <div class="container-payment-methods">
+                <h2>Continue as guest</h2>
+                <div class="container-payment-methods-element">
+                    <div class="container-form-payment-methods">
+                        <form>
+                            <fieldset class="row-payment-methods">
+                                <legend>Payment</legend>
+                                <p>Payment methods</p>
+                                <div class="column-payment-methods">
+                                    <input type="radio" id="credit-card" name="credit-card" value="credit-card">
+                                    <label for="credit-card">Credit card</label>
+                                </div>
+                                <div class="column-payment-methods">
+                                    <input type="radio" id="paypal" name="paypal" value="paypal">
+                                    <label for="paypal">Paypal</label>
+                                </div>
+                                <div class="column-payment-methods">
+                                    <input type="radio" id="google-pay" name="google-pay" value="google-pay">
+                                    <label for="google-pay">Google Pay</label>
+                                </div>
+                                <div class="column-payment-methods">
+                                    <input type="radio" id="applepay" name="applepay" value="applepay">
+                                    <label for="applepay">Apple Pay</label>
+                                </div>
+                                <div class="column-payment-methods">
+                                    <input type="radio" id="klarna" name="klarna" value="klarna">
+                                    <label for="klarna">Klarna</label>
+                                </div>
+                            </fieldset>
+
+                            <fieldset  class="container-shipping">
+                                <legend> Shipping information</legend>
+                                <div class="shipping-element">
+                                    <label for="email">E-mail</label>
+                                    <input type="text" id="email" name="email" placeholder="E-mail">
+                                </div>
+                                <div class="shipping-element">
+                                    <label for="first-name">First name</label>
+                                    <input type="text" id="first-name" name="first-name" placeholder="First name">
+                                </div>
+                                <div class="shipping-element">
+                                    <label for="last-name">Last name</label>
+                                    <input type="text" id="last-name" name="last-name" placeholder="Last name">
+                                </div>
+                                <div class="shipping-element">
+                                    <label for="address">Address</label>
+                                    <input type="text" id="address" name="address" placeholder="Address">
+                                </div>
+                                <div class="shipping-element">
+                                    <label for="city">City</label>
+                                    <input type="text" id="city" name="city" placeholder="City">
+                                </div>
+                                <div class="shipping-element">
+                                    <label for="zip-code">Zip code</label>
+                                    <input type="text" id="zip-code" name="zip-code" placeholder="Zip code">
+                                </div>
+                                <div class="shipping-element">
+                                    <label for="country">Country</label>
+                                    <input type="text" id="country" name="country" placeholder="Country">
+                                </div>
+                                <div class="shipping-element">
+                                    <label for="phone-number">Phone number</label>
+                                    <input type="text" id="phone-number" name="phone-number" placeholder="Phone number">
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="container-preferred-shipping">
+                                <legend>Preferred shipping</legend>
+                                <div class="preferred-shipping-element">
+                                    <input type="radio" id="cac" name="cac" value="Click and Collect">
+                                    <label for="cac">Click and collect</label>
+                                    <span class="shipping-price">120 NOK</span>
+                                </div>
+                                <div class="preferred-shipping-element">
+                                    <input type="radio" id="bp" name="bp" value="Bring-Postboks">
+                                    <label for="bp">Bring - Postboks</label>
+                                    <span class="shipping-price">120 NOK</span>
+                                </div>
+                                <div class="preferred-shipping-element">
+                                    <input type="radio" id="brh" name="brh" value="Bring-Rett hjem">
+                                    <label for="brh">Bring - Rett hjem</label>
+                                    <span class="shipping-price">120 NOK</span>
+                                </div>
+                                <div class="preferred-shipping-element">
+                                    <input type="radio" id="pib" name="pib" value="Post i Butikk">
+                                    <label for="pib">Post i Butikk</label>
+                                    <span class="shipping-price">120 NOK</span>
+                                </div>
+                            </fieldset>
+                            <button class="medium-btn-red" id="medium-btn-red-confirm-order" >Confirm Order</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+</main>
+
+<footer class="footer">
+    <li>
+        <a href="index.html" alt="Home"><img src="assets/icons-used/raindrop_icon_home_button.svg"></a>
+        <a href="jackets.html" alt="Products">Products</a>
+        <a href="contact-us.html" alt="Delivery">Contact Us</a>
+        <a href="about-us.html" alt="About Us">About Us</a>
+        <a href="contact-us.html" alt="Contact Us">Contact</a>
+        <a href="contact-us.html" alt="Support">Support</a>
+    </li>
+    <!-- insert line -->
+    <!-- insert icons for instagram, facebook and snapchat -->
+    <!-- icons for payment methods-->
+        <p>© 2023 Rainydays</p>
+        <p>Terms and conditions</p>
+</footer>
+</body>
+</html>

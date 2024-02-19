@@ -1,0 +1,34 @@
+
+.where-we-started {
+display: block;
+}
+
+.container {
+display: flex;
+flex-direction: row;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 10%;
+margin-bottom: 6rem;
+}
+
+.where-we-started-elements {
+display: flex;
+flex-direction: column;
+gap: 2rem;
+margin-right: 5%;
+/* width: 28rem;
+height: 28rem;
+margin-bottom: 10rem; */
+}
+
+.where-we-started-elements {
+width: 28rem;
+height: 35rem;
+}
+
+.image-where-we-started-img {
+    margin-left: 5rem;
+}
+
+

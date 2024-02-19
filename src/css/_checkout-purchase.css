@@ -1,0 +1,69 @@
+
+fieldset {
+    margin: 0;
+    padding: 1rem 10%;
+    border: 0;
+}
+
+legend {
+    font-size: 2rem;
+    font-weight: bold;
+    /* margin-bottom: 0.25rem; */
+}
+
+.column-payment-methods, .preferred-shipping-element {
+    width: 80%;
+    height: 3rem;
+    background-color: #C7D6DEB2;
+    margin-bottom: 0.75rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.shipping-element input {
+    width: 80%;
+    height: 3rem;
+    background-color: #C7D6DEB2;
+    margin-bottom: 0.75rem;
+    display: block;
+    border: 0;
+    padding-left: 1rem;
+}
+
+.shipping-element label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+#medium-btn-red-confirm-order {
+    display: block;
+    width: 40%;
+    height: 3rem;
+    margin-bottom: 0.75rem;
+    border: 0;
+    padding-left: 1rem;
+    margin-left: 20%;
+}
+
+.container-payment-methods h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 1rem 10%;
+    border: 0;
+}
+
+/*
+.shipping-price {
+    font-weight: bold;
+} */
+
+
+.preferred-shipping-element {
+    display: inline-grid;
+    column-gap: 0.5rem;
+    grid-template-columns: 1rem 3fr 1fr;
+    padding-bottom: 0.5rem;
+    align-items: center;
+}
