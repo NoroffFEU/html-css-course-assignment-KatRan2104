@@ -1,4 +1,4 @@
-@import url("assets/fonts/Montserrat");
+@import url("assets/fonts/Montserrat/static/Montserrat-Regular.ttf");
 
 *, ::before, ::after {
     box-sizing: border-box;
@@ -10,7 +10,6 @@
 }
 
 /* section > header > main > footer {max-width: 2560;} */
-
 
 body {
     font-family: Montserrat;
@@ -550,14 +549,6 @@ top: 1rem 5%;
     line-height: normal;
 }
 
-/* #inline-button {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: start;
-    gap: 1.5rem;
-} */
-
 /* ON LINE NEWS LETTER */
 .container-sign-me-up-one-line-format {
     padding: 1rem 10%;
@@ -565,7 +556,6 @@ top: 1rem 5%;
     margin-top: 4rem;
     margin-bottom: 6rem;
 }
-
 
 .form-one-line-format {
     display: flex;
@@ -727,9 +717,6 @@ top: 1rem 5%;
 
 /* BEAKPOINTS */
 /* Small screens 800px, 1024px */
-
-
-
 
 .sustainability-holder {
     display: flex;
