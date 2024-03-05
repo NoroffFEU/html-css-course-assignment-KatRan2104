@@ -12,6 +12,12 @@ flex-direction: column;
 margin-left: 10%;
 }
 
+.jacket-list {
+display: flex;
+flex-direction: column;
+align-content: center;
+}
+
 .text-list-jacket {
 display: flex;
 flex-direction: row;
