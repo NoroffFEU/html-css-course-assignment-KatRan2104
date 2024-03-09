@@ -194,7 +194,8 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 35rem;
+    padding: 6%;
+    /* height: 35rem; */
     background-image: url("assets/images/image-main-hero-banner.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -301,12 +302,14 @@ top: 1rem 5%;
 .first-section {
     display: block;
     position: relative;
-    padding: 1rem 10%;
+    /* padding: 1rem 10%; */
     margin-top: 3rem;
+    margin-right: 10%;
 }
 
 .first-section h2 {
     top: 3rem;
+    margin-left: 10%;
 }
 
 .textbox-container-index-first-two {
@@ -788,3 +791,32 @@ top: 1rem 5%;
     width: 100%;
 }
 
+@media (min-width: 435px) and (max-width: 768px) {
+    .column-one img {
+        padding-top: 15%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .hero-banner h1 {
+        font-size: 4.5rem;
+    }
+    .column-one {
+        visibility: hidden;
+    }
+
+    .third-section {
+        margin-top: -6rem;
+    }
+    .content-colum-two {
+        margin-top: -22rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero-banner h1 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+}
