@@ -61,6 +61,10 @@ p {
     margin-bottom: 1rem;
 }
 
+a {
+    text-decoration: none;
+    padding-top: 1rem;
+}
 
 /* HEADER */
 
@@ -794,6 +798,10 @@ top: 1rem 5%;
 @media (min-width: 435px) and (max-width: 768px) {
     .column-one img {
         padding-top: 15%;
+    }
+
+    .hero-banner h1 {
+        font-size: 5rem;
     }
 }
 
