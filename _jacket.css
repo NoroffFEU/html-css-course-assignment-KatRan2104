@@ -104,6 +104,11 @@
     visibility: hidden;
 }
 
+.product-description-headers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 /* .round-checkbox {
     position: relative;
