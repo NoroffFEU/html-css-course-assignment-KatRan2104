@@ -25,8 +25,20 @@
     font-weight: 500;
 }
 
-.product-description-container h3 {
+.product-description-container h2 {
     margin-left: 5%;
+}
+
+.product-description-container {
+    margin-bottom: 2rem;
+}
+
+#sizes-checkbox-container, #size-container {
+    margin-bottom: 1rem;
+}
+
+.product-size-container label{
+    padding: 1rem 0.25rem 1rem;
 }
 
 .color-radio-checkbox {
@@ -99,12 +111,6 @@ input[type="radio"]:checked::before {
     transform: scale(1);
 }
 
-/* #green input[type="radio"]{
-    color: green;
-    background-color: green;
-    border: 0.25em solid green;
-} */
-
 #button-heart {
     display: flex;
     flex-direction: row;
@@ -143,10 +149,3 @@ input[type="radio"]:checked::before {
     padding: 1rem;
 }
 
-
-/* @media (max-width: 768px) {
-    .product-container {
-        padding: 0rem 1rem;
-        flex-wrap: nowrap;
-    }
-} */

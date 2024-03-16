@@ -58,54 +58,46 @@
                     </div>
                     <div class="product-size-container">
                         <p>Size</p>
-                        <input type="checkbox" id="checkbox-size">
-                        <label for="checkbox">
-                        XS
-                        </label>
-                        <input type="checkbox" id="checkbox-size">
-                        <label for="checkbox">
-                        S
-                        </label>
-                        <input type="checkbox" id="checkbox-size">
-                        <label for="checkbox">
-                        M
-                        </label>
-                        <input type="checkbox" name="checkbox" id="checkbox-size">
-                        <label for="checkbox">
-                        L
-                        </label>
-                        <input type="checkbox" id="checkbox-size">
-                        <label for="checkbox">
-                        XL
-                        </label>
+                        <div id="sizes-checkbox-container">
+                            <label for="checkbox">XS</label>
+                            <input type="checkbox" id="XS">
+                            <label for="checkbox">S</label>
+                            <input type="checkbox" id="S">
+                            <label for="checkbox">M</label>
+                            <input type="checkbox" id="M">
+                            <label for="checkbox">L</label>
+                            <input type="checkbox" id="L">
+                            <label for="checkbox">XL</label>
+                            <input type="checkbox" id="XL">
+                        </div>
                         <div id="size-container">
                         <p>Size and fit guide</p><span><img src="assets/icons-used/ruler-icon.png" alt="Size guide"></span>
                         </div>
-
+                    </div>
                         <div id="color-checkbox-nav">
                             <p>Color</p>
                             <div class="color-radio-checkbox">
-                                <form action="active">
+                                <form action="url">
                                     <label class="form-control">
                                     <input type="radio" name="radio">
                                     </label>
                                 </form>
-                                <form action="">
+                                <form action="url">
                                     <label class="form-control">
                                     <input type="radio" name="radio">
                                     </label>
                                 </form>
-                                <form action="">
+                                <form action="url">
                                     <label class="form-control">
                                     <input type="radio" name="radio">
                                     </label>
                                 </form>
-                                <form action="">
+                                <form action="url">
                                     <label class="form-control">
                                     <input type="radio" name="radio">
                                     </label>
                                 </form>
-                                <form action="">
+                                <form action="url">
                                     <label class="form-control">
                                     <input type="radio" name="radio">
                                     </label>
@@ -135,12 +127,12 @@
         </section>
 
         <section class="product-description-container">
-            <h3>Product description</h3>
+            <h2>Product description</h2>
             <div class="product-description">
                 <div class="product-description-text">
                     <div class="general-description">
                     <p>Fit: Close to body</p>
-                    <p>Breathability: RET &lt 9m2</p>
+                    <p>Breathability: RET &lt; 9m2</p>
                     <p>Waterproofness: 50.000mm</p>
                     <p>Activity: Hiking, Hybrid</p>
                     <p>Product Properties: Waterprfoof Breathable, Windproof, Versatile, Durable</p>
@@ -170,22 +162,22 @@
                 <a class="medium-btn-narrow" href="products.html">Sign Me Up!</a>
             </div>
             <div class="checkbox">
-                <input type="checkbox">I agree to the terms and conditions to join in on the news letter</input>
+                <input type="checkbox" name="checkbox">I agree to the terms and conditions to join in on the news letter
             </div>
+        </div>
     </main>
 
     <footer class="footer">
-        <li>
-            <a href="index.html" alt="Home"><img src="assets/icons-used/raindrop_icon_home_button.svg"></a>
-            <a href="jackets.html" alt="Products">Products</a>
-            <a href="contact-us.html" alt="Delivery">Contact Us</a>
-            <a href="about-us.html" alt="About Us">About Us</a>
-            <a href="contact-us.html" alt="Contact Us">Contact</a>
-            <a href="contact-us.html" alt="Support">Support</a>
-        </li>
-        <!-- insert line -->
-        <!-- insert icons for instagram, facebook and snapchat -->
-        <!-- icons for payment methods-->
+        <ul>
+            <li>
+                <a href="index.html"><img src="assets/icons-used/raindrop_icon_home_button.svg" alt="Navigation Logo"></a>
+                <a href="all-products.html">Products</a>
+                <a href="contact-us.html">Contact Us</a>
+                <a href="about-us.html">About Us</a>
+                <a href="contact-us.html">Contact</a>
+                <a href="contact-us.html">Support</a>
+            </li>
+        </ul>
             <p>© 2023 Rainydays</p>
             <p>Terms and conditions</p>
     </footer>
