@@ -167,18 +167,6 @@ a {
     color: black;
 }
 
-/* Main */
-
-/* .main-content {
-    display: grid;
-    place-content: center;
-    height: 100%;
-    padding: 1rem 10%;
-    margin-top: 10rem;
-} */
-
-/* HERO BANNER HOME PAGE*/
-
 .hero-banner {
     display: flex;
     flex-direction: column;
@@ -511,9 +499,9 @@ padding: 1rem 5%;
     align-items: flex-start;
     background-image: url(assets/images/two-people-looking-out-of-the-void.jpg);
     background-repeat: no-repeat;
-    height: 25rem;
+    min-height: 25rem;
     background-color: #a4b2b9;
-    width: cover;
+    /* width: cover; */
 }
 
 .make-it-last-elements {
@@ -522,6 +510,7 @@ padding: 1rem 5%;
     justify-content: center;
     align-items: flex-start;
     padding: 1rem 10%;
+    padding-right: 6rem;
     gap: 1rem;
 }
 
@@ -541,7 +530,6 @@ padding: 1rem 5%;
 
 .medium-btn {
     display: inline-block;
-    margin-left: 1.3rem;
     background-color:#0A3641;
     color: white;
     padding: 16px;
@@ -549,12 +537,11 @@ padding: 1rem 5%;
     width: 256px;
     font-family: Montserrat, sans-serif;
     font-size: 20px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .medium-btn-narrow {
     display: inline-block;
-    margin-left: 1.3rem;
     width: 15rem;
     height: 3.5rem;
     background-color:#0A3641;
@@ -563,22 +550,21 @@ padding: 1rem 5%;
     border: none;
     font-family: Montserrat, sans-serif;
     font-size: 1.3rem;
-    font-weight: 400px;
+    font-weight: 400;
+    margin-bottom: 1.3rem;
 }
 
 .medium-btn-red {
     display: inline-block;
-    margin-left: 1.3rem;
     background-color: #FF5935;
     color: white;
     margin-top: 1.3rem;
     padding: 16px;
     border: none;
     max-width: 256px;
-    /* min-width: 190px; */
     font-family: Montserrat, sans-serif;
     font-size: 20px;
-    font-weight: 400px;
+    font-weight: 400;
     margin: 0% auto;
 }
 

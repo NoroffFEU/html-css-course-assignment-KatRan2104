@@ -8,42 +8,35 @@ fieldset {
 legend {
     font-size: 2rem;
     font-weight: bold;
-    /* margin-bottom: 0.25rem; */
 }
 
 .column-payment-methods, .preferred-shipping-element {
     width: 80%;
-    height: 3rem;
     background-color: #C7D6DEB2;
     margin-bottom: 0.75rem;
-    padding-top: 1rem;
-    padding-left: 1rem;
+    padding: 1rem;
 }
 
 .shipping-element input {
     width: 80%;
-    height: 3rem;
     background-color: #C7D6DEB2;
     margin-bottom: 0.75rem;
     display: block;
-    border: 0;
-    padding-left: 1rem;
+    padding: 1rem;
+    border: none;
 }
 
 .shipping-element label {
     display: block;
     font-weight: bold;
     font-size: 1.25rem;
+    margin-bottom: 0.25rem;
 }
 
 #medium-btn-red-confirm-order {
-    display: block;
-    width: 40%;
-    height: 3rem;
-    margin-bottom: 0.75rem;
-    border: 0;
-    padding-left: 1rem;
-    margin-left: 20%;
+    display: inline-block;
+    margin-bottom: 1.3rem;
+    margin-left: 10%;
 }
 
 .container-payment-methods h2 {
@@ -54,16 +47,9 @@ legend {
     border: 0;
 }
 
-/*
-.shipping-price {
-    font-weight: bold;
-} */
-
-
 .preferred-shipping-element {
     display: inline-grid;
     column-gap: 0.5rem;
     grid-template-columns: 1rem 3fr 1fr;
-    padding-bottom: 0.5rem;
     align-items: center;
 }
