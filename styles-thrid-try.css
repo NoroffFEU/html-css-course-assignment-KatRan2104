@@ -529,7 +529,8 @@ padding: 1rem 5%;
 /* BUTTONS */
 
 .medium-btn {
-    display: inline-block;
+    display: grid;
+    justify-items: center;
     background-color:#0A3641;
     color: white;
     padding: 16px;
@@ -541,7 +542,8 @@ padding: 1rem 5%;
 }
 
 .medium-btn-narrow {
-    display: inline-block;
+    display: grid;
+    justify-items: center;
     width: 15rem;
     height: 3.5rem;
     background-color:#0A3641;

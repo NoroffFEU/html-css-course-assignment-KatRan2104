@@ -13,118 +13,150 @@
     <header>
         <nav class="navigation-bar">
             <div>
-                <a class="navigation-logo" href="index.html"><img src="assets/icons-used/raindrop_icon_home_button.svg" alt="Logo"/></a>
+                <a class="navigation-logo" href="index.html"><img src="assets/icons-used/raindrop_icon_home_button.svg" alt="Logo"></a>
             </div>
-            <input id="menu-toggle" type="checkbox" />
-            <label class='menu-button-container' for="menu-toggle">
-            <div class='menu-button'></div>
-        </label>
+            <input id="menu-toggle" type="checkbox">
+            <label class="menu-button-container" for="menu-toggle"><span class="menu-button"></span></label>
             <ul class="menu">
                 <li><a href="jacket-two.html">Women's</a></li>
                 <li><a href="jacket-two.html">Men's</a></li>
                 <li><a href="about-us.html">About Us</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>
-                <li ><a href="#"><img src="assets/icons-used/search_icon.svg"></a></li>
-                <li class="right"><a href="#"><img src="assets/icons-used/my_page_icon.svg"></a></li>
-                <li class="right"><a href="#"><img src="assets/icons-used/shoppingbag_icon.svg"></a></li>
+                <li ><a href="#"><img src="assets/icons-used/search_icon.svg" alt="Search icon"></a></li>
+                <li class="right"><a href="#"><img src="assets/icons-used/my_page_icon.svg" alt="My page icon"></a></li>
+                <li class="right"><a href="#"><img src="assets/icons-used/shoppingbag_icon.svg" alt="shopping bag icon"></a></li>
             </ul>
         </nav>
     </header>
 
 
     <main>
-        <section class="spaceholder-blue-top">
-            <div lass="blue-top-text">
+        <div class="spaceholder-blue-top">
+            <div class="blue-top-text">
                 <p> Woman's > Rain Jacket > Product name </p>
             </div>
-        </section>
+        </div>
 
-        <section class="spaceholder-white-back">
+        <div class="spaceholder-white-back">
             <div class="white-black-arrow">
-                <a href="#" class="back-icon"><img src="assets/icons-used/arrow-icon.svg" alt="Search"/></a>
+                <a href="#" class="back-icon"><img src="assets/icons-used/arrow-icon.svg" alt="Search"></a>
             </div>
             <div class="white-black-text">
                 <p>Back</p>
             </div>
-        </section>
+        </div>
 
-        <div class="product-container">
-            <div class="img-container-jacket">
-                <img src="assets/images/blue-jacket-product-page-big.png" alt="Picture of blue Jacket" class="blue-jacket-image">
-            </div>
-            <div class="product-text">
-                <h2>Freya Hybrid Rain</h2>
-                <p>3499 NOK</p>
-            </div>
-            <div class="product-size-container">
-                <p>Size</p>
-                <input type="checkbox" id="checkbox-size"/>
-                <label for="checkbox">
-                XS
-                </label>
-                <input type="checkbox" id="checkbox-size"/>
-                <label for="checkbox">
-                S
-                </label>
-                <input type="checkbox" id="checkbox-size"/>
-                <label for="checkbox">
-                M
-                </label>
-                <input type="checkbox" id="checkbox-size"/>
-                <label for="checkbox">
-                L
-                </label>
-                <input type="checkbox" id="checkbox-size"/>
-                <label for="checkbox">
-                XL
-                </label>
-                <div id="size-container">
-                <p>Size and fit guide</p><span><img src="assets/icons-used/ruler-icon.png" alt="Size guide"></span>
+        <section class="product-display">
+            <div class="product-container">
+                <div class="img-container-jacket">
+                    <img src="assets/images/blue-jacket-product-page-big.png" alt="Picture of blue Jacket" class="blue-jacket-image">
                 </div>
+                <div class="product-text-container">
+                    <div class="product-text">
+                        <h2>Freya Hybrid Rain</h2>
+                        <p>3499 NOK</p>
+                    </div>
+                    <div class="product-size-container">
+                        <p>Size</p>
+                        <input type="checkbox" id="checkbox-size">
+                        <label for="checkbox">
+                        XS
+                        </label>
+                        <input type="checkbox" id="checkbox-size">
+                        <label for="checkbox">
+                        S
+                        </label>
+                        <input type="checkbox" id="checkbox-size">
+                        <label for="checkbox">
+                        M
+                        </label>
+                        <input type="checkbox" name="checkbox" id="checkbox-size">
+                        <label for="checkbox">
+                        L
+                        </label>
+                        <input type="checkbox" id="checkbox-size">
+                        <label for="checkbox">
+                        XL
+                        </label>
+                        <div id="size-container">
+                        <p>Size and fit guide</p><span><img src="assets/icons-used/ruler-icon.png" alt="Size guide"></span>
+                        </div>
 
-                <div id="color-checkbox-nav">
-                    <p>Color</p>
-                    <label for="red" class="color"><input type="radio" id="radio" name="red"></label>
-                    <label for="green" class="color"><input type="radio" id="radio" name="green"></label>
-                </div>
-                <div id="button-heart">
-                <a class="medium-btn-red" href="checkout-purchase.html">Add to cart</a><img src="assets/icons-used/heart.jpg" alt="like-button">
-                </div>
-                <div class="product-text-under-btn">
-                    <p>Free shipping </p>
-                    <p>Easy returns</p>
-                    <p>Quick delivery</p>
-                </div>
-                <div class="costumer-reviews">
-                    <p class="costumer-reviews-head">Costumer reviews</p>
-                    <div class="star-container">
-                        <img src="assets/icons-used/star.svg" alt="Star"><img src="assets/icons-used/star.svg" alt="Star"><img src="assets/icons-used/star.svg" alt="Star"><img src="assets/icons-used/star.svg" alt="Star"><img src="assets/icons-used/star.svg" alt="Star"><p>+0 Reviews</p>
+                        <div id="color-checkbox-nav">
+                            <p>Color</p>
+                            <div class="color-radio-checkbox">
+                                <form action="active">
+                                    <label class="form-control">
+                                    <input type="radio" name="radio">
+                                    </label>
+                                </form>
+                                <form action="">
+                                    <label class="form-control">
+                                    <input type="radio" name="radio">
+                                    </label>
+                                </form>
+                                <form action="">
+                                    <label class="form-control">
+                                    <input type="radio" name="radio">
+                                    </label>
+                                </form>
+                                <form action="">
+                                    <label class="form-control">
+                                    <input type="radio" name="radio">
+                                    </label>
+                                </form>
+                                <form action="">
+                                    <label class="form-control">
+                                    <input type="radio" name="radio">
+                                    </label>
+                                </form>
+                                <!-- <label for="red" class="color"><input type="radio" id="red" name="red"></label>
+                                <label for="green" class="color"><input type="radio" id="green" name="green"></label> -->
+                            </div>
+                        </div>
+
+                        <div id="button-heart">
+                            <a class="medium-btn-red" id="medium-btn-red-jacket-page" href="checkout-purchase.html">Add to cart</a><span><img src="assets/icons-used/heart.jpg" alt="like-button"></span>
+                        </div>
+                        <div class="product-text-under-btn">
+                            <p>Free shipping </p>
+                            <p>Easy returns</p>
+                            <p>Quick delivery</p>
+                        </div>
+                        <div class="costumer-reviews">
+                            <p class="costumer-reviews-head">Costumer reviews</p>
+                            <div class="star-container">
+                                <img src="assets/icons-used/star.svg" alt="Star"><img src="assets/icons-used/star.svg" alt="Star"><img src="assets/icons-used/star.svg" alt="Star"><img src="assets/icons-used/star.svg" alt="Star"><img src="assets/icons-used/star.svg" alt="Star"><p>+0 Reviews</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="product-description">
+        <section class="product-description-container">
             <h3>Product description</h3>
-            <div class="product-description-text">
-                <div class="general-description">
-                <p>Fit: Close to body</p>
-                <p>Breathability: RET < 9m2</p>
-                <p>Waterproofness: 50.000mm</p>
-                <p>Activity: Hiking, Hybrid</p>
-                <p>Product Properties: Waterprfoof Breathable, Windproof, Versatile, Durable</p>
-                </div>
-                <div class="composition-description">
-                <p>Composition: Cuffs: 96% Polyamide, 78% Polyamide, 22% Elastane, 4% Elastane; Bottom: 100% Polyamide; Collar: 100% Polyester; Bottom lining: 100% Polyamide; Shell: back: 100% Polyester Recycled, 100% Polyester Recycled, 100% Polyester Recycled - face: 100% Polyester Recycled, 100% Polyester Recycled, 100% Polyester Recycled - membrane: 100% Expanded Polyethylene, 100% Expanded Polyethylene, 100% Expanded Polyethylene; Pockets: back: 100% Polyester Recycled, 100% Polyester Recycled - face: 100% Polyester Recycled, 100% Polyester Recycled - membrane: 100% Expanded Polyethylene, 100% Expanded Polyethylene</p>
+            <div class="product-description">
+                <div class="product-description-text">
+                    <div class="general-description">
+                    <p>Fit: Close to body</p>
+                    <p>Breathability: RET &lt 9m2</p>
+                    <p>Waterproofness: 50.000mm</p>
+                    <p>Activity: Hiking, Hybrid</p>
+                    <p>Product Properties: Waterprfoof Breathable, Windproof, Versatile, Durable</p>
+                    </div>
+                    <div class="composition-description">
+                    <p>Composition: Cuffs: 96% Polyamide, 78% Polyamide, 22% Elastane, 4% Elastane; Bottom: 100% Polyamide; Collar: 100% Polyester; Bottom lining: 100% Polyamide; Shell: back: 100% Polyester Recycled, 100% Polyester Recycled, 100% Polyester Recycled - face: 100% Polyester Recycled, 100% Polyester Recycled, 100% Polyester Recycled - membrane: 100% Expanded Polyethylene, 100% Expanded Polyethylene, 100% Expanded Polyethylene; Pockets: back: 100% Polyester Recycled, 100% Polyester Recycled - face: 100% Polyester Recycled, 100% Polyester Recycled - membrane: 100% Expanded Polyethylene, 100% Expanded Polyethylene</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
         <section class="breaksection">
             <div class="make-it-last-container">
                 <div class="make-it-last-elements">
                     <h2>Make it last</h2>
                     <p>You can now mend any garment bought at RainyDays at one of our Stores. Just bring your recite and we'll do the rest.</p>
-                    <button class="medium-btn" herf="products.html">Find Store</button>
+                    <a class="medium-btn" href="products.html">Find Store</a>
                 </div>
             </div>
         </section>
@@ -135,7 +167,7 @@
             <div class="form-one-line-format">
                 <input type="text" placeholder="name" class="text-fill-one-line">
                 <input type="text" placeholder="e.g OlaJohansen@gmail.com" class="text-fill-one-line">
-                <button class="medium-btn-narrow" herf="products.html">Sign Me Up!</button>
+                <a class="medium-btn-narrow" href="products.html">Sign Me Up!</a>
             </div>
             <div class="checkbox">
                 <input type="checkbox">I agree to the terms and conditions to join in on the news letter</input>
