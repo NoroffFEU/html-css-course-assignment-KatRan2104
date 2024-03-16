@@ -3,100 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rainydays|Contact Us| </title>
-    <link rel="stylesheet" href="styles-thrid-try.css">
-    <link rel="stylesheet" type="text/css" href="styles-2.css">
-    <link rel="stylesheet" href="contact-us.css">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <title>Rainydays | Home</title>
+    <link rel="stylesheet" type="text/css" href="menu-navigation.css">
+    <link rel="stylesheet" type="text/css" href="styles-thrid-try.css">
+    <link rel="stylesheet" type="text/css" href="contact-us.css">
 </head>
 
 <body>
     <header>
         <nav class="navigation-bar">
             <div>
-                <a class="navigation-logo" href="index.html"><img src="assets/icons-used/raindrop_icon_home_button.svg" alt="Logo"/></a>
+                <a class="navigation-logo" href="index.html"><img src="assets/icons-used/raindrop_icon_home_button.svg" alt="Logo"></a>
             </div>
-            <input id="menu-toggle" type="checkbox" />
-            <label class='menu-button-container' for="menu-toggle">
-            <div class='menu-button'></div>
-        </label>
+            <input id="menu-toggle" type="checkbox">
+            <label class="menu-button-container" for="menu-toggle"><span class="menu-button"></span></label>
             <ul class="menu">
                 <li><a href="jacket-two.html">Women's</a></li>
                 <li><a href="jacket-two.html">Men's</a></li>
                 <li><a href="about-us.html">About Us</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>
-                <li ><a href="#"><img src="assets/icons-used/search_icon.svg"></a></li>
-                <li class="right"><a href="#"><img src="assets/icons-used/my_page_icon.svg"></a></li>
-                <li class="right"><a href="#"><img src="assets/icons-used/shoppingbag_icon.svg"></a></li>
+                <li ><a href="#"><img src="assets/icons-used/search_icon.svg" alt="Search icon"></a></li>
+                <li class="right"><a href="#"><img src="assets/icons-used/my_page_icon.svg" alt="My page icon"></a></li>
+                <li class="right"><a href="#"><img src="assets/icons-used/shoppingbag_icon.svg" alt="shopping bag icon"></a></li>
             </ul>
         </nav>
     </header>
 
-
-<body>
     <main>
         <section class="contact-us-form-redirect">
             <div class="container-about-us">
                 <div class="container-about-us-element">
-                        <h2>Contact Us</h2>
-                        <h3>To contact our costumers service please fill out the form bellow. We will respond as quickly as possible. Do you need emidiet help pleace call us during working hours as listed bellow</h3>
-                        <form id="contact-us-form">
-                            <div class="contact-us-input-group" id="contact-email">
-                                <label for="email">E-mail</label>
-                                <input id="email" name="email" type="email" placeholder="E-mail" class="contact-us-input">
-                            </div>
-                            <div class="contact-us-input-group" id="contact-ordernr">
-                                <label for="order-number">Order Number</label>
-                                <input id="order-number" name="order-number" type="text" placeholder="Order Number" class="contact-us-input">
-                            </div>
-                            <div class="contact-us-input-group" id="contact-fname">
-                                <label for="first-name">First Name</label>
-                                <input id="first-name" name="first-name" type="text" placeholder="First Name" class="contact-us-input">
-                            </div>
-                            <div class="contact-us-input-group" id="contact-sname">
-                                <label for="last-name">Last Name</label>
-                                <input id="last-name" name="last-name" type="text" placeholder="Last Name" class="contact-us-input">
-                            </div>
-                            <div class="contact-us-input-group" id="contact-ymessage">
-                                <label for="message">Your message</label>
-                                <textarea id="message" name="message" placeholder="Your message" class="contact-us-input"></textarea>
-                            </div>
-                            <div class="contact-us-input-group" id="contact-submit">
-                                <button class="medium-btn-red" id="medium-btn-red-contact-us" href="contact-us.php">Contact Us</button>
-                            </div>
-                        </form>
-                        <!-- <div class="form-contact-us-container">
-                            <div class="form-contact-us-row">
-                                <div class="form-column-left">
-                                    <div class="form-column">
-                                    <h3> E-mail </h3>
-                                    <input type="text" placeholder="e.g OlaJohansen@gmail.com" class="form-contact-us">
-                                    </div>
-                                    <div class="form-column">
-                                    <h3> First Name </h3>
-                                    <input type="text" placeholder="e.g OlaJohansen@gmail.com" class="form-contact-us">
-                                    </div>
-                                </div>
-                                <div class="form-column-right">
-                                    <div class="form-column">
-                                    <h3> Order Number </h3>
-                                    <input type="text" placeholder="e.g SAD40950200001" class="form-contact-us">
-                                    </div>
-                                    <div class="form-column">
-                                    <h3> Second Name </h3>
-                                    <input type="text" placeholder="e.g OlaJohansen@gmail.com" class="form-contact-us">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-column-answer-field">
-                                <div class="form-column">
-                                <h3> Your message </h3>
-                                <input type="text" placeholder="Type your message here" class="form-contact-us-message">
-                                </div>
-                            </div>
+                    <h2>Contact Us</h2>
+                    <h3>To contact our costumers service please fill out the form bellow. We will respond as quickly as possible. Do you need emidiet help pleace call us during working hours as listed bellow</h3>
+                    <form id="contact-us-form">
+                        <div class="contact-us-input-group" id="contact-email">
+                            <label for="email">E-mail</label>
+                            <input id="email" name="email" type="email" placeholder="E-mail" class="contact-us-input">
                         </div>
-                        <button class="medium-btn-red" id="medium-btn-red-contact-us" href="contact-us.php">Contact Us</button>
-                </div> -->
+                        <div class="contact-us-input-group" id="contact-ordernr">
+                            <label for="order-number">Order Number</label>
+                            <input id="order-number" name="order-number" type="text" placeholder="Order Number" class="contact-us-input">
+                        </div>
+                        <div class="contact-us-input-group" id="contact-fname">
+                            <label for="first-name">First Name</label>
+                            <input id="first-name" name="first-name" type="text" placeholder="First Name" class="contact-us-input">
+                        </div>
+                        <div class="contact-us-input-group" id="contact-sname">
+                            <label for="last-name">Last Name</label>
+                            <input id="last-name" name="last-name" type="text" placeholder="Last Name" class="contact-us-input">
+                        </div>
+                        <div class="contact-us-input-group" id="contact-ymessage">
+                            <label for="message">Your message</label>
+                            <textarea id="message" name="message" placeholder="Your message" class="contact-us-input"></textarea>
+                        </div>
+                        <div class="contact-us-input-group" id="contact-submit">
+                            <a class="medium-btn-red" id="medium-btn-red-contact-us" href="contact-us.php">Contact Us</a>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
 
@@ -105,7 +69,7 @@
                 <div class="make-it-last-elements">
                     <h2>Make it last</h2>
                     <p>You can now mend any garment bought at RainyDays at one of our Stores. Just bring your recite and we'll do the rest.</p>
-                    <button class="medium-btn" herf="products.html">Find Store</button>
+                    <a class="medium-btn" href="products.html">Find Store</a>
                 </div>
             </div>
         </section>
@@ -115,19 +79,19 @@
                 <div class="other-ways-to-contact-elements">
                     <h2>Other ways to contact us</h2>
                     <div class="other-ways-to-contact-text">
-                        <p id="bold-text">
+                        <p class="bold-text">
                             Working hours:
                         </p>
-                        <p id="narrow-text">
+                        <p class="narrow-text">
                             Monday - Friday: 08:00 - 18:00
                         </p>
-                        <p id="bold-text">
+                        <p class="bold-text">
                             Telephone:
                         </p>
-                        <p id="narrow-text">
+                        <p class="narrow-text">
                             +47 123 45 678
                         </p>
-                        <p id="bold-text">
+                        <p class="bold-text">
                             Email:
                         </p>
                         <p id="narrow-text">
@@ -180,17 +144,16 @@
     </main>
 
     <footer class="footer">
-        <li>
-            <a href="index.html" alt="Home"><img src="assets/icons-used/raindrop_icon_home_button.svg"></a>
-            <a href="jackets.html" alt="Products">Products</a>
-            <a href="contact-us.html" alt="Delivery">Contact Us</a>
-            <a href="about-us.html" alt="About Us">About Us</a>
-            <a href="contact-us.html" alt="Contact Us">Contact</a>
-            <a href="contact-us.html" alt="Support">Support</a>
-        </li>
-        <!-- insert line -->
-        <!-- insert icons for instagram, facebook and snapchat -->
-        <!-- icons for payment methods-->
+        <ul>
+            <li>
+                <a href="index.html"><img src="assets/icons-used/raindrop_icon_home_button.svg" alt="Navigation Logo"></a>
+                <a href="all-products.html">Products</a>
+                <a href="contact-us.html">Contact Us</a>
+                <a href="about-us.html">About Us</a>
+                <a href="contact-us.html">Contact</a>
+                <a href="contact-us.html">Support</a>
+            </li>
+        </ul>
             <p>© 2023 Rainydays</p>
             <p>Terms and conditions</p>
     </footer>
