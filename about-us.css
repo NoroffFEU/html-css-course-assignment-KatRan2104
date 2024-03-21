@@ -1,5 +1,5 @@
 
-.where-we-started {
+/* .where-we-started {
 display: block;
 }
 
@@ -11,27 +11,92 @@ margin-left: 10%;
 margin-right: 10%;
 margin-top: 10%;
 margin-bottom: 6rem;
-}
+} */
 
-.where-we-started-elements {
+/* .where-we-started-elements {
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 gap: 2rem;
 margin-right: 5%;
-/* width: 28rem;
+width: 28rem;
 height: 28rem;
-margin-bottom: 10rem; */
-}
+margin-bottom: 10rem;
+} */
 
-.where-we-started-elements {
+/* .where-we-started-elements {
 width: 28rem;
 height: 35rem;
-}
+} */
 
-.image-where-we-started-img {
-    /* margin-left: 5rem; */
+/* .image-where-we-started-img {
+    margin-left: 5rem;
     align-items: center;
+    max-width: 200px;
 }
 
+.sustainability-holder {
+    display: flex;
+    flex-direction: column;
+}
 
+.sustainability-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.sustainability-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1rem 10%;
+    gap: 1rem;
+} */
+
+/* .sustainability-elements h2 {
+    color: white;
+}
+
+.sustainability-elements p {
+    color: white;
+    width: 70%;
+    line-height: normal;
+    font-family: Montserrat;
+    font-size: 1.3rem;
+}  */
+
+.sustainability-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+}
+
+.sustainability-container p {
+    color: white;
+}
+
+.sustainability-elements {
+    padding: 5%;
+}
+
+#sustainability h2, #responsibility h2, #quality h2 {
+    font-size: 3rem;
+}
+
+#sustainability {
+    background-image: url(assets/images/sustainability.jpg);
+    }
+
+#responsibility {
+    align-items: flex-start;
+    background-image: url(assets/images/second-imag-about-us.png);
+}
+
+#quality {
+    background-image: url(assets/images/thrid-img-about-us.jpg);
+}
