@@ -10,6 +10,37 @@ legend {
     font-weight: bold;
 }
 
+.continue-as-guest h1 {
+    font-size: 3rem;
+    padding-left: 10%;
+}
+
+.jackets-container-purchase {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem 10%;
+    gap: 1rem;
+}
+
+.jacket-list-purchase {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 3% 10% 3% 3%;
+}
+
+#text-list-purchase h3 {
+    padding-bottom: 130%;
+}
+
+.jackets-container-purchase img {
+    max-width: 200px;
+}
+
 .column-payment-methods, .preferred-shipping-element {
     width: 80%;
     background-color: #C7D6DEB2;
@@ -52,4 +83,11 @@ legend {
     column-gap: 0.5rem;
     grid-template-columns: 1rem 3fr 1fr;
     align-items: center;
+}
+
+
+@media screen and (max-width: 320px) {
+    .jacket-list-purchase {
+        padding: 2%;
+    }
 }
