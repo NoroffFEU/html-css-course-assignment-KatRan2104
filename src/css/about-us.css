@@ -35,13 +35,13 @@
 }
 
 #sustainability {
-    background-image: url(assets/images/sustainability.jpg);
+    background-image: url(../../assets/images/sustainability.jpg);
     }
 
 #responsibility {
-    background-image: url(assets/images/second-imag-about-us.png);
+    background-image: url(../../assets/images/second-imag-about-us.png);
 }
 
 #quality {
-    background-image: url(assets/images/thrid-img-about-us.jpg);
+    background-image: url(../../assets/images/thrid-img-about-us.jpg);
 }
