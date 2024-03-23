@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: montserrat;
-    src: url(../../assets/fonts/montserrat/static/montserrat-Regular.ttf);
+    src: url(../../assets/fonts/Montserrat/static/Montserrat-Regular.ttf);
 }
 
 *, ::before, ::after {
@@ -126,7 +126,6 @@ a {
 .spaceholder-blue-top {
     display: flex;
     flex-direction: column;
-    /* align-content: baseline; */
     height: 8rem;
     background-color: #C7D6DE;
 }
