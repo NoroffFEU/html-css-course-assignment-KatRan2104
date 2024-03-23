@@ -9,10 +9,8 @@
     padding: 0;
 }
 
-/* section > header > main > footer {max-width: 2560;} */
-
 body {
-    font-family: Montserrat;
+    font-family: url("assets/fonts/Montserrat/static/Montserrat-Regular.ttf");
     min-height: 100vh;
 }
 
@@ -23,28 +21,22 @@ main {
 /*TYPOGRAPHY*/
 
 h1 {
-    font-family: Montserrat;
+    font-family: url("assets/fonts/Montserrat/static/Montserrat-Regular.ttf");
     font-size: 96px;
-/* make a brake point for the h1 on smaller screens */
     font-weight: 700;
 }
 
 h2 {
-    /* color: #0A3641; */
-    font-family: Montserrat;
+    font-family: url("assets/fonts/Montserrat/static/Montserrat-Regular.ttf");
     font-size: 4rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    /* display: flex */
-
-    /* display:inline-block; */
-    /* position: relative; */
 }
 
 h4 {
 color: #000;
-font-family: Montserrat;
+font-family: url("assets/fonts/Montserrat/static/Montserrat-Regular.ttf");
 font-size: 2.5rem;
 font-style: normal;
 font-weight: 700;
@@ -53,7 +45,7 @@ line-height: normal;
 
 p {
     color: black;
-    font-family: Montserrat;
+    font-family: url("assets/fonts/Montserrat/static/Montserrat-Regular.ttf");
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
@@ -108,7 +100,6 @@ a {
     padding: 1rem;
     list-style-type: none;
     margin-left: 1.8rem;
-    /* justify-content: baseline; */
 
     color: white;
     text-decoration: none;
@@ -119,8 +110,6 @@ a {
 
 .left-side {
     display: flex;
-    /* justify-content: baseline; */
-    /* align-items: left; */
     padding: 1rem 0;
 }
 
@@ -132,7 +121,6 @@ a {
     list-style-type: none;
     margin-right: 2.5rem;
     justify-content: center;
-    /* align-items: bottom; */
     margin-left: 36px;
 }
 
@@ -145,7 +133,7 @@ a {
 }
 
 .spaceholder-blue-top p {
-    font-family: Montserrat;
+    font-family: url("assets/fonts/Montserrat/static/Montserrat-Regular.ttf");
     padding-inline: 1rem 5%;
     padding-left: 5%;
     margin-top: 6rem;
@@ -173,7 +161,6 @@ a {
     justify-content: center;
     align-items: center;
     padding: 6%;
-    /* height: 35rem; */
     background-image: url("assets/images/image-main-hero-banner.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -397,7 +384,7 @@ padding: 1rem 5%;
 .container-sign-me-up-two-line-forma, .container-sign-me-up-one-line-forma h4 {
     margin-left: 0%;
     margin-bottom: 2rem;
-    font-family: Montserrat;
+    font-family: url("assets/fonts/Montserrat/static/Montserrat-Regular.ttf");
     font-weight: 500;
     line-height: normal;
 }
@@ -445,7 +432,6 @@ padding: 1rem 5%;
 
 
 /* FOOTER */
-
 .footer {
     display: flex;
     flex-direction: column;
@@ -522,7 +508,7 @@ padding: 1rem 5%;
     color: white;
     width: 70%;
     line-height: normal;
-    font-family: Montserrat;
+    font-family: url("assets/fonts/Montserrat/static/Montserrat-Regular.ttf");
     font-size: 1.3rem;
 }
 
@@ -536,7 +522,7 @@ padding: 1rem 5%;
     padding: 16px;
     border: none;
     width: 256px;
-    font-family: Montserrat, sans-serif;
+    font-family: url("assets/fonts/Montserrat/static/Montserrat-Regular.ttf");
     font-size: 20px;
     font-weight: 400;
 }
@@ -550,7 +536,7 @@ padding: 1rem 5%;
     color: white;
     padding: 16px;
     border: none;
-    font-family: Montserrat, sans-serif;
+    font-family: url("assets/fonts/Montserrat/static/Montserrat-Regular.ttf");
     font-size: 1.3rem;
     font-weight: 400;
     margin-bottom: 1.3rem;
@@ -564,7 +550,7 @@ padding: 1rem 5%;
     padding: 16px;
     border: none;
     max-width: 256px;
-    font-family: Montserrat, sans-serif;
+    font-family: url("assets/fonts/Montserrat/static/Montserrat-Regular.ttf");
     font-size: 20px;
     font-weight: 400;
     margin: 0% auto;
