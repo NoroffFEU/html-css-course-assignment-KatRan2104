@@ -1,12 +1,11 @@
 @import url("styles.css");
 
-
 .jackets-main-container {
     width: 100%;
 }
 
 .jackets-container {
-    display: flex;
+    display: inline-grid;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
