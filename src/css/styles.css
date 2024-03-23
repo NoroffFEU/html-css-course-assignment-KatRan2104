@@ -1,7 +1,7 @@
 
 @font-face {
-    font-family: Montserrat;
-    src: url(../../assets/fonts/Montserrat/static/Montserrat-Regular.ttf);
+    font-family: montserrat;
+    src: url(../../assets/fonts/montserrat/static/montserrat-Regular.ttf);
 }
 
 *, ::before, ::after {
@@ -24,7 +24,7 @@ main {
 /*TYPOGRAPHY*/
 
 h1, h2, h3, h4, p, body {
-    font-family: Montserrat;
+    font-family: montserrat;
     font-style: normal;
 }
 
@@ -132,7 +132,7 @@ a {
 }
 
 .spaceholder-blue-top p {
-    font-family: Montserrat;
+    font-family: montserrat;
     padding-inline: 1rem 5%;
     padding-left: 5%;
     margin-top: 6rem;
@@ -164,7 +164,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    background-position-y: 90%;
+    background-position-y: 60%;
     gap: 2rem;
 }
 
@@ -382,7 +382,6 @@ padding: 1rem 5%;
 .container-sign-me-up-two-line-forma, .container-sign-me-up-one-line-forma h4 {
     margin-left: 0%;
     margin-bottom: 2rem;
-    /* font-family: Montserrat; */
     font-weight: 500;
     line-height: normal;
 }
@@ -470,7 +469,7 @@ padding: 1rem 5%;
     font-size: 20px;
 }
 
-/* MAKE IT LAST BREAK SECTION */
+/* mAKE IT LAST BREAK SECTION */
 .breaksection {
     display: flex;
     flex-direction: column;
@@ -506,7 +505,6 @@ padding: 1rem 5%;
     color: white;
     width: 70%;
     line-height: normal;
-    /* font-family: Montserrat; */
     font-size: 1.3rem;
 }
 
@@ -520,7 +518,6 @@ padding: 1rem 5%;
     padding: 16px;
     border: none;
     width: 256px;
-    /* font-family: Montserrat; */
     font-size: 20px;
     font-weight: 400;
 }
