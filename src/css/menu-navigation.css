@@ -22,9 +22,12 @@ nav li {
     justify-content: space-between;
 }
 
-.navigation-bar {
+.navigation-bar, .menu, .right {
     display: flex;
     flex-direction: row;
+}
+
+.navigation-bar {
     align-items: center;
     justify-content: space-between;
     background-color: #0A3641;
@@ -34,8 +37,6 @@ nav li {
 }
 
 .menu {
-    display: flex;
-    flex-direction: row;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -47,8 +48,6 @@ nav li {
 }
 
 .right {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
 }
 
