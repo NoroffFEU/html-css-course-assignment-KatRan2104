@@ -1,76 +1,22 @@
 
-/* .where-we-started {
-display: block;
-}
-
 .container {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-margin-left: 10%;
-margin-right: 10%;
-margin-top: 10%;
-margin-bottom: 6rem;
-} */
-
-/* .where-we-started-elements {
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-gap: 2rem;
-margin-right: 5%;
-width: 28rem;
-height: 28rem;
-margin-bottom: 10rem;
-} */
-
-/* .where-we-started-elements {
-width: 28rem;
-height: 35rem;
-} */
-
-/* .image-where-we-started-img {
-    margin-left: 5rem;
-    align-items: center;
-    max-width: 200px;
+    padding: 2rem 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.sustainability-holder {
+.where-we-started-elements {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-size: 2.5em;
 }
 
 .sustainability-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-repeat: no-repeat;
-}
-
-.sustainability-elements {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    padding: 1rem 10%;
-    gap: 1rem;
-} */
-
-/* .sustainability-elements h2 {
-    color: white;
-}
-
-.sustainability-elements p {
-    color: white;
-    width: 70%;
-    line-height: normal;
-    font-family: Montserrat;
-    font-size: 1.3rem;
-}  */
-
-.sustainability-container {
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     color: white;
@@ -81,11 +27,11 @@ height: 35rem;
 }
 
 .sustainability-elements {
-    padding: 5%;
+    padding: 10%;
 }
 
 #sustainability h2, #responsibility h2, #quality h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 #sustainability {
@@ -93,7 +39,6 @@ height: 35rem;
     }
 
 #responsibility {
-    align-items: flex-start;
     background-image: url(assets/images/second-imag-about-us.png);
 }
 

@@ -57,6 +57,7 @@ nav li {
 .menu a {
     color: white;
     text-decoration: none;
+    padding: unset;
 }
 
 .menu > li {
